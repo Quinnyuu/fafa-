@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #d0fd8a;
+}
+#main{
+    position: relative;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 5px;
+    background: white;
+}
+#sub{
+    position: absolute;
+    top : 10px;
+    left: 10px;
+    height: 300px;
+    width: 480px;
+}
+#sub h2{
+    color: #4d6c26;
+    font:25px Arial;
+    position: absolute;
+    top: 10px;
+}
+#namebox{
+    position: absolute;
+    top:60px;
+}
+#namebox input{
+    height: 42px;
+    width: 200px;
+    float: left;
+    border-radius: 5px;
+}
+#namebox img{
+    height: 38px;
+    width: 38px;
+    float: left;
+    margin: 2px;
+    border: white 2px solid;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+#namebox img.picked{
+    border-color: #ffd02d;
+    opacity: 1;
+}
+#content{
+    height: 100px;
+    width: 480px;
+    position: absolute;
+    top:120px;
+    border-radius: 5px;
+    border: #4d6c26 1px solid;
+    resize: none;
+}
+#tr{
+    position: absolute;
+    top: 232px;
+}
+#tr p{
+    height: 40px;
+    width: 340px;
+    position: absolute;
+    left: 0px;
+    text-align: right;
+    color: #acaaaa;
+    font-size: 18px;
+    line-height: 40px;
+}
+#tr p span{
+    font:25px "Droid Sans Mono Dotted";
+}
+#tr button{
+    height: 40px;
+    width: 120px;
+    background: #ffd02d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 360px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#list{
+    width: 470px;
+    margin: 10px;
+    background: #ebffc0;
+    padding: 5px;
+    position:absolute;;
+    top: 300px;
+}
+
+#list h3{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px 5px 0 0 ;
+    margin: 0px 10px;
+    background: #ffffff;
+    color: #4d6c26;
+}
+#list ul{
+    background: #ffffff;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.clearfix:after{
+    clear:both;
+    display:block;
+    height:0;
+    content:"";
+}
+.clearfix{
+    zoom:1;
+}
+#list ul li{
+    list-style: none;
+    border-bottom: #ffd02d 1px dashed;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+#list ul li .upic{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+#list ul li .upic img{
+    margin: 8px;
+    border: #acdc60 1px dashed;
+    height: 80px;
+    width: 80px;
+}
+#list .user-content{
+    float: left;
+    width: 300px;
+}
+#list .user{
+    color: #ffd02d;
+    font: 20px Papyrus;
+}
+
+#list .ucontent{
+    color: #4d6c26;
+    font: 18px Arial;
+}
+#list .date{
+    color: #bdbdbd;
+    font-size: 12px;
+    float: left;
+    width: 260px;
+}
+#list .delete{
+    color: #bdbdbd;
+    font: 18px Papyrus;
+    text-align: right;
+    cursor: pointer;
+    float: left;
+    display: none;
+}
